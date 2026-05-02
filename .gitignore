@@ -1,1 +1,32 @@
+# ========================
+# .NET
+# ========================
+**/bin/
+**/obj/
+[Dd]ebug/
+[Rr]elease/
 .vs/
+*.user
+*.suo
+*.log
+
+# ========================
+# Angular / Node
+# ========================
+node_modules/
+dist/
+.angular/
+.vscode/
+
+# ========================
+# Secrets
+# ========================
+appsettings.Production.json
+*.pfx
+*.publishsettings
+
+# ========================
+# OS / інше
+# ========================
+.DS_Store
+Thumbs.db
